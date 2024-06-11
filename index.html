@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Deret Fibonacci</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Kalkulator Deret Fibonacci</div>
+    <div class="container">
+        <div class="panel" id="fibonacciPanel">
+            <h2>Fibonacci</h2>
+            <label for="nFibonacci">Banyak Suku (n):</label>
+            <input type="number" id="nFibonacci" min="1">
+            <label for="seriesFibonacci">Deret:</label>
+            <input type="text" id="seriesFibonacci" readonly>
+            <button onclick="calculateFibonacci()">Hitung Deret Fibonacci</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
